@@ -1189,7 +1189,7 @@ def extract_observations(scene_data):
         if label in ["broken_window", "open_door"]:
             observations["point_of_entry"] = label
 
-        if label == "body"
+        if label == "body":
            observations["victim_found"] = True
 
     return observations
